@@ -19,11 +19,47 @@
       @apply bg-stone-100;
   }
 
+  h1 {
+    @apply text-[40px];
+  }
+
   h2 {
-    @apply text-brown-800;
+    @apply text-brown-800 text-[28px];
   }
 
   h3 {
-    @apply text-rose-800;
+    @apply text-rose-800 text-xl font-semibold;
   }
+
+  p {
+    @apply text-[16px] leading-[150%];
+  }
+
+  ul {
+    @apply list-disc list-inside;
+  }
+
+  ol {
+    @apply list-decimal list-inside;
+  }
+
+  hr {
+    @apply text-gray-200;
+  }
+
+  table {
+    @apply w-full;
+  }
+
+  tr {
+    @apply border-b-gray-200 border-b-1;
+  }
+
+  td {
+    @apply px-8 py-2.5;
+  }
+}
+
+.nutrition-value {
+  @apply text-brown-800;
 }
