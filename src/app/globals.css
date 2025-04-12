@@ -56,10 +56,10 @@
   }
 
   td {
-    @apply px-8 py-2.5;
+    @apply pl-8 py-2.5;
   }
 }
 
 .nutrition-value {
-  @apply text-brown-800;
+  @apply text-brown-800 font-bold pr-4;
 }
