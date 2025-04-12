@@ -7,10 +7,17 @@ const youngSerif = localFont({ src: "../../../../public/fonts/young-serif/YoungS
 export default function Omelette() {
     return (
       <div>
-        <main className="my-[124px]">
-          <div className="w-[736px] mx-auto rounded-3xl bg-white p-10">
+        <main className="md:my-[124px]">
             <Image
-              className="rounded-[10px] mx-auto mb-7"
+              className="md:hidden w-full"
+              src={omelletepic}
+              alt="omelette"
+              width={656}
+              height={300}
+            />
+          <div className="w-full md:w-[736px] mx-auto md:rounded-3xl bg-white px-8 py-12 md:p-10">
+            <Image
+              className="hidden md:block md:rounded-[10px] mx-auto mb-7"
               src={omelletepic}
               alt="omelette"
               width={656}
@@ -26,7 +33,7 @@ export default function Omelette() {
 
             <section className="bg-rose-50 rounded-[14px] px-8 py-6 mb-[25px]">
               <h3 className={`${outfit.className} font-semibold`}>Preparation time</h3>
-              <ul className={`${outfit.className} marker:text-rose-800`}>
+              <ul className={`${outfit.className} marker:text-rose-800 list-outside pl-6`}>
                 <li className="my-2"><b>Total:</b> Approximately 10 minutes</li>
                 <li className="my-2"><b>Preparation:</b> 5 minutes</li>
                 <li className="my-2"><b>Cooking:</b> 5 minutes</li>
@@ -34,7 +41,7 @@ export default function Omelette() {
             </section>
 
             <h2 className={`${youngSerif.className} mb-4`}>Ingredients</h2>
-            <ul className={`${outfit.className} marker:text-brown-800 pl-2`}>
+            <ul className={`${outfit.className} marker:text-brown-800 pl-2 list-outside pl-6`}>
               <li className="my-2">2-3 large eggs</li>
               <li className="my-2">Salt, to taste</li>
               <li className="my-2">Pepper, to taste</li>
