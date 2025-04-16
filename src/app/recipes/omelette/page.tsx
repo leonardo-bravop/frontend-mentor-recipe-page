@@ -32,7 +32,7 @@ export default function Omelette() {
             </p>
 
             <section className="bg-rose-50 rounded-[14px] px-8 py-6 mb-[25px]">
-              <h3 className={`${outfit.className} font-semibold`}>Preparation time</h3>
+              <span className={`summary-title ${outfit.className} font-semibold`}>Preparation time</span>
               <ul className={`${outfit.className} marker:text-rose-800 list-outside pl-6`}>
                 <li className="my-2"><b>Total:</b> Approximately 10 minutes</li>
                 <li className="my-2"><b>Preparation:</b> 5 minutes</li>

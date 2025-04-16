@@ -28,10 +28,6 @@
     @apply text-brown-800 text-[28px];
   }
 
-  h3 {
-    @apply text-rose-800 text-xl font-semibold;
-  }
-
   p {
     @apply text-[16px] leading-[150%];
   }
@@ -63,6 +59,10 @@
   td {
     @apply pl-8 py-2.5;
   }
+}
+
+.summary-title {
+  @apply text-rose-800 text-xl font-semibold;
 }
 
 .nutrition-value {
