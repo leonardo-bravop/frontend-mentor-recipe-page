@@ -17,7 +17,7 @@ export default function Omelette() {
             />
           <div className="w-full md:w-[736px] mx-auto md:rounded-3xl bg-white px-8 py-12 md:p-10">
             <Image
-              className="hidden md:block md:rounded-[10px] mx-auto mb-7"
+              className="hidden md:block md:rounded-[10px] mx-auto mb-7.5"
               src={omelletepic}
               alt="omelette"
               width={656}
@@ -26,7 +26,7 @@ export default function Omelette() {
 
             <h1 className={`${youngSerif.className} mb-[15px]`}>Simple Omelette Recipe</h1>
 
-            <p className={`${outfit.className} mb-[34px] leading-[150%]`}>
+            <p className={`${outfit.className} mb-7 leading-[150%]`}>
               An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
               to perfection, optionally filled with your choice of cheese, vegetables, or meats.
             </p>

@@ -16,12 +16,11 @@
 
 @layer base {
   body {
-      @apply bg-stone-100;
+      @apply bg-stone-100 text-stone-600;
   }
 
   h1 {
-    @apply leading-[100%] md:leading-[150%];
-    font-size: clamp(36px, 2vw, 40px);
+    @apply leading-[100%] md:leading-[150%] text-4xl md:text-[40px] text-stone-900;
   }
 
   h2 {
@@ -57,7 +56,11 @@
   }
 
   td {
-    @apply pl-8 py-2.5;
+    @apply pl-8 py-3;
+  }
+
+  b {
+    @apply text-stone-600;
   }
 }
 
